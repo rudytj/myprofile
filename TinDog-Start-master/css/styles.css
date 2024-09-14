@@ -9,7 +9,7 @@ h1 {
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.5;
 
 }
@@ -22,7 +22,13 @@ p {
     color: #524343;
 }
 .main-container {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
+}
+.mid-container {
+    padding: 7% 15% 4%;
+}
+.footer-container {
+    padding: 1% 15% 1%;
 }
 .navbar-brand {
     font-family: 'Ubuntu';
@@ -43,14 +49,24 @@ p {
     margin: 5% 3% 5% 0;
 }
 .title-img {
-    width: 60%;
-    rotate: 25deg;
+    /* width: 60%; */
+    /* rotate: 25deg; */
+    transform: rotate(25deg);
+    position: absolute;
+    /* z-index: -1; */
+    right: 25%;
 }
 .fa-solid {
     color: #ef8172;  
     font-size: 300%;
     margin-bottom: 1rem;
 }
+/* .fa-brands {
+    padding: 7px;
+} */
+.social-icons {
+    margin: 20px 10px;
+   }
 .fa-solid:hover {
     color: #ff4c68;  
 }
@@ -61,17 +77,35 @@ p {
 
 #title {
     background-color: #ff4c68;
-    color: white;    
+    color: white;
+    
 }
 #features {
     padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: white;
 }
 #testimonials {
     background-color: #ef8172;
     color: white;
     text-align: center;
 }
-.testimonials-img {
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+}
+#cta h3 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    /* font-weight: bold; */
+}
+#footer {
+    text-align: center;
+}
+.testimonial-img {
     border-radius: 100%;
     margin: 20px;
     width: 10%;
@@ -85,6 +119,26 @@ p {
     margin: 20px 20px 50px;
     width: 15%;
 }
-.carousell-item {
+.carousel-item {
     padding: 7% 15%;
+}
+#pricing {
+    padding: 100px;
+    text-align: center;   
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+
+@media (max-width: 1028px) {
+    .title-img {
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+    }
+    #title {
+    text-align: center;
+    }
 }
