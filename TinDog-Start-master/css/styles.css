@@ -7,6 +7,12 @@ h1 {
     line-height: 1.5;
 
 }
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
@@ -58,5 +64,27 @@ p {
     color: white;    
 }
 #features {
+    padding: 7% 15%;
+}
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+}
+.testimonials-img {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+#press {
+    background-color: #ef8172;
+    padding: 3%;
+    text-align: center;
+}
+.press-logo {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+.carousell-item {
     padding: 7% 15%;
 }
